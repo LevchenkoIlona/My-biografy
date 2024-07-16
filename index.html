@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Биография</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="wrapper">
+    <div class="container">
+        <div class="info">
+            <img class="photo" src="myphoto1.jpg" width="230" alt="здесь должно быть фото">
+                <div class="info-text">
+                    <header>
+                        <h1><strong>Левченко Илона</strong></h1>
+                    </header>
+                    <article id="article" class="card">
+                        Я студентка <em>КубГАУ</em>. Учусь на факультете <em>"Прикладная информатика"</em>.
+                        <br>
+                        Я люблю путешествовать, читать книги и заниматься спортом. Мечтаю стать высококвалифицированным специалистом в сфере IT.
+                    </article>
+                    <br>
+                    <hr>
+                    <div class="net">
+                    <h4>Список социальных сетей:</h4>
+                        <a class="links" href="https://vk.com/ilover_of_life" target="_blank">Вконтакте</a> 
+                        <span class="span">|</span>
+                        <a class="links" href="https://t.me/Ilover_of_life" target="_blank">Телеграмм</a>
+                    </div>
+                    <br>
+                    <hr>
+                </div>
+        </div>
+                <div class="hobby">
+                    <h2 class="name">Мои хобби</h2>
+                    <ul class="hobbies">
+                        <li>Чтение книг</li>
+                        <li>Занятие спортом</li>
+                        <li>Рисование</li>
+                        <li>Программирование</li>
+                    </ul>
+                </div>
+                <div class="education">
+                    <h2 class="name">Образование</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Город</th>
+                            <th>Образовательное учреждение</th>
+                            <th>Год</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Северск</td>
+                            <td>МАОУ СОШ №80</td>
+                            <td>2012 - 2020</td>
+                        </tr>
+                        <tr>
+                            <td>Темрюк</td>
+                            <td>МБОУ СОШ №1</td>
+                            <td>2020 - 2021</td>
+                        </tr>
+                        <tr>
+                            <td>Павловская</td>
+                            <td>МБОУ СОШ №10</td>
+                            <td>2021 - 2023</td>
+                        </tr>
+                        <tr>
+                            <td>Краснодар</td>
+                            <td>КубГАУ им. И.А. Трубилина</td>
+                            <td>2023 - по н.вр.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+                <hr>
+                <br>
+                <form class="form">
+                    <header>
+                        <h2 class="name">Связаться со мной</h2>
+                    </header>
+                    <div class="form-row">
+                        <div class="form-group">
+                                <label for="text">Ваше имя:</label>
+                                <input type="text" id="text" placeholder="Введите имя" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Ваш email:</label>
+                            <input type="email" id="email" placeholder="Введите email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="tell">
+                                <label for="tel">Ваш номер телефона:</label>
+                                <input type="tel" id="tel" placeholder="Введите номер телефона" pattern="[\+]\d{1}[\-]\d{3}[\-]\d{3}[\-]\d{2}[\-]\d{2}" minlength="16" maxlength="16" required>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="form-group">
+                            <label for="message">Ваше сообщение:</label>
+                            <textarea id="message" cols="25" rows="5" placeholder="Введите сообщение..." required></textarea>           
+                        </div>
+                    <input class="button" type="submit" value="Отправить">
+                </form>
+    </div>
+</body>
+</html>

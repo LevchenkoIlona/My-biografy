@@ -1,0 +1,312 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    max-width: 750px;
+    margin: auto;
+    width: 80%;
+}
+.photo{
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    margin-bottom: 28px;
+    margin-top: 27px;
+}
+.form-row{
+    margin-bottom: 10px;
+}
+.form h2{
+    text-align: center;
+}
+.form-row .form-group{
+    margin-right: 20px;
+}
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+.form-group label{
+    display: block;
+    font-size: 19px;
+}
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    padding: 15px 0 10px;
+    outline: none;
+    border-bottom: 1px solid #585858;
+    color:rgb(35, 35, 35)
+}
+.name{
+    padding-bottom: 20px;
+    padding-top: 18px
+}
+body{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 12px;
+    background-color: #ddd1bb;
+}
+.button{
+    font-size: 17px;
+    padding: 15px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 18px;
+}
+.button:hover{
+    background-color: #dacab9;
+}
+.button:active{
+    background-color: #987c5f;
+}
+.links{
+    color:#785842;
+    margin-left: 19px;
+}
+.links:hover{
+    color:#a0775b;
+}
+span{
+    margin-left: 15px;
+}
+@media (max-width: 450px){
+    .links{
+        display: inline-block;
+    }
+    span{
+        display: inline-block;
+        position: absolute;
+        margin: 5px;
+    }
+}
+.hobby{
+    background-color: #c1a991;
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 18px;
+    min-width: 318px;
+}
+.education{
+    background-color: #9f826d;
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 18px;
+    min-width: 318px;
+}
+h1{
+    padding-bottom: 18px;
+    display: inline-block;
+}
+.info-text{
+    margin-left: 40px;
+    margin-top: 18px;
+}
+.info{
+    display: flex;
+    margin-bottom: 20px;
+}
+.info #article
+{
+color: rgb(67, 67, 67);
+}
+@media (max-width: 650px) {
+    .info {
+      display: block;
+      font-size: 18px;
+      margin:0;
+      padding:0;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    .photo{
+        height: 300px;
+        margin-top: 40px;
+        padding:0;
+        margin-left:auto;
+        margin-right:auto;
+        display: block;
+    }
+    .net{
+        text-align: center;
+    }
+    .links{
+        margin: 0;
+    }
+    span{
+        margin: 0;
+    }
+    header{
+        text-align: center;
+    }
+}
+@media (max-width: 450px) {
+    .info {
+      display: block;
+      margin:0;
+      padding:0;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    .photo{
+        height: 300px;
+        margin-top: 40px;
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        padding: 0;
+
+    }
+    .container{
+        width: 100%;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .wrapper{
+        padding: 0;
+    }
+    .form{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%
+    }
+    table{
+        font-size: 16px;
+    }
+    span{
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .links{
+        padding-left: 10px;
+    }
+    .links .span{
+        display: block;
+    }
+    h1{
+        padding-right: 40px;
+    }
+    .button{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.hobbies{
+   line-height: 35px;
+   padding: 20px;
+   list-style:disc;
+   padding-top: 0;
+   color: rgb(35, 35, 35);
+}
+textarea{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+
+}
+#tel{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+#text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+#email{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+table{
+    color: rgb(35, 35, 35);
+    width: 100%;
+}
+.table td{
+    padding: 15px;
+}
+th{
+    padding: 18px;
+}
+h4{
+    padding: 18px;
+}
+.table thead:nth-child(1){
+    background-color: #d2bda8;
+}
+.table tbody{
+    background-color: #d2bda8;
+}
+@media (max-width: 650px){
+    table{
+        align-items: center;
+        width: 100%;
+        font-size: 18px;
+        margin:0;
+        padding:0;
+    }
+    .table td{
+        margin:0;
+        padding:0;
+    }
+    .table th{
+        margin:0;
+        padding:0;
+    }
+    .education{
+        padding: 2px;
+        padding-bottom: 18px;
+    }
+    .hobby{
+        padding: 2px;
+        padding-bottom: 18px;
+    }
+    .button{
+        align-items: center;
+    }
+    *{
+        margin:0;
+        padding:0;
+    }
+    .wrapper{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+}
+@media (max-width: 400px){
+    .hobbies{
+        font-size: 18px;
+    }
+    header{
+        font-size: 18px;
+    }
+}
+@media (max-width: 814px){
+    .photo{
+        height: 300px;
+        margin-top: 40px;
+        padding:0;
+        margin-left:auto;
+        margin-right:auto;
+        display: block; 
+    }
+}
+@media (max-width: 350px){
+    table{
+        font-size: 14px;
+    }
+}
+input:invalid:not(:placeholder-shown) {border-color: red;}
+input:valid:not(:placeholder-shown) {border-color: green;}
